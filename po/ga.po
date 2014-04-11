@@ -1,0 +1,992 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Random_Campaign-1.12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-11 15:09+0200\n"
+"PO-Revision-Date: 2014-04-11 15:09+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ga\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4;\n"
+
+#. [campaign]: id=Random_Campaign, type=mp
+#: Random_Campaign/_main.cfg:14
+msgid "Random Campaign"
+msgstr ""
+
+#. [campaign]: id=Random_Campaign, type=mp
+#: Random_Campaign/_main.cfg:15
+msgid "RC"
+msgstr ""
+
+#. [campaign]: id=Random_Campaign, type=mp
+#: Random_Campaign/_main.cfg:23
+msgid "(Easy)"
+msgstr ""
+
+#. [campaign]: id=Random_Campaign, type=mp
+#: Random_Campaign/_main.cfg:23
+msgid "Sergeant"
+msgstr ""
+
+#. [campaign]: id=Random_Campaign, type=mp
+#: Random_Campaign/_main.cfg:24
+msgid "Lieutenant"
+msgstr ""
+
+#. [campaign]: id=Random_Campaign, type=mp
+#: Random_Campaign/_main.cfg:24
+msgid "(Normal)"
+msgstr ""
+
+#. [campaign]: id=Random_Campaign, type=mp
+#: Random_Campaign/_main.cfg:25
+msgid "General"
+msgstr ""
+
+#. [campaign]: id=Random_Campaign, type=mp
+#: Random_Campaign/_main.cfg:25
+msgid "(Hard)"
+msgstr ""
+
+#. [campaign]: id=Random_Campaign, type=mp
+#: Random_Campaign/_main.cfg:26
+msgid "Grand Marshal"
+msgstr ""
+
+#. [campaign]: id=Random_Campaign, type=mp
+#: Random_Campaign/_main.cfg:26
+msgid "(Nightmare)"
+msgstr ""
+
+#. [campaign]: id=Random_Campaign, type=mp
+#: Random_Campaign/_main.cfg:29
+msgid ""
+"Select an era, choose your faction, and lead it to victory against random "
+"factions over a series of random maps. For the standard experience, choose "
+"the Random Campaign Default era.\n"
+"(Intermediate level, 7 scenarios.)\n"
+"\n"
+"Important Note: Due to a bug, 'Scenario Start' saves for this campaign are "
+"broken. It is recommend to make a manual saves on each map, or set 'maximum "
+"auto-saves' high enough with 'delete auto-saves at the end of scenarios' "
+"turned off.\n"
+"\n"
+"The campaign is balanced for being played with 'use map settings', though "
+"any setting on the Configure Game screen can be changed, and will take "
+"effect throughout the campaign.\n"
+"\n"
+"The following unit advancement defines are enabled in this campaign: Ancient "
+"Lich, Armageddon Drake, Dwarvish Arcanister, & Orcish High Warlord.\n"
+"\n"
+"Any Default or Age of Heroes style era can be selected. If an Age of Heroes "
+"style era is selected, the campaign will start at scenario 4. It's "
+"recommended to use normal eras (i.e. eras that are just collections of "
+"factions). If the era contains events or other game play mechanics, "
+"unexpected results or incompatibilities may occur.\n"
+"\n"
+"Modifications may or may not work with this add-on, use at own risk. "
+"However, there is special cross-functionality with Custom Campaign. Upon "
+"finishing Random Campaign, your army will be saved for use in Custom "
+"Campaign, even if you don't have it. If the Custom Campaign modification is "
+"used when starting Random Campaign, it will allow you to select one of your "
+"armies for the campaign.\n"
+"\n"
+"Requires BfW 1.11.10 or greater. Requires the latest versions of 'Era of "
+"Legends' & 'Ultimate Random Maps' to be installed.\n"
+"\n"
+msgstr ""
+
+#. [campaign]: id=Random_Campaign, type=mp
+#. [era]: id=rc_default
+#. [era]: id=rc_heroes
+#: Random_Campaign/_main.cfg:44 Random_Campaign/eras.cfg:12
+#: Random_Campaign/eras.cfg:47
+msgid "Version"
+msgstr ""
+
+#. [campaign]: id=Random_Campaign, type=mp
+#. [era]: id=rc_default
+#. [era]: id=rc_heroes
+#: Random_Campaign/_main.cfg:45 Random_Campaign/eras.cfg:13
+#: Random_Campaign/eras.cfg:48
+msgid "Programming & Design by SigurdFireDragon."
+msgstr ""
+
+#. [about]
+#: Random_Campaign/_main.cfg:48
+msgid "Campaign Design and Programming"
+msgstr ""
+
+#. [era]: id=rc_default
+#: Random_Campaign/eras.cfg:5
+msgid "Random Campaign Default"
+msgstr ""
+
+#. [era]: id=rc_default
+#: Random_Campaign/eras.cfg:6
+msgid ""
+"Same as the Default + Khalifate Era, but with the addition of the Dwarvish "
+"Runesmith as a leader for the Knalgan Alliance. Consists of seven factions. "
+"May no longer be balanced."
+msgstr ""
+
+#. [era]: id=rc_default
+#. [era]: id=rc_heroes
+#: Random_Campaign/eras.cfg:8 Random_Campaign/eras.cfg:43
+msgid "Intended for use with Random Campaign."
+msgstr ""
+
+#. [era]: id=rc_default
+#. [era]: id=rc_heroes
+#: Random_Campaign/eras.cfg:10 Random_Campaign/eras.cfg:45
+msgid ""
+"This era, when used with Random Campaign, allows each faction to have at "
+"least one unit that can be leveled up to level four in Random Campaign."
+msgstr ""
+
+#. [era]: id=rc_heroes
+#: Random_Campaign/eras.cfg:40
+msgid "Random Campaign Age of Heroes"
+msgstr ""
+
+#. [era]: id=rc_heroes
+#: Random_Campaign/eras.cfg:41
+msgid ""
+"Same as the Age of Heroes + Khalifate Era, but with the addition of the "
+"Dwarvish Runemaster as a leader for the Knalgan Alliance. Consists of seven "
+"factions. Not considered balanced."
+msgstr ""
+
+#. [multiplayer]: id=RC_1P_00_Start
+#: Random_Campaign/scenarios_mp/1P_00.cfg:5
+msgid "1p - Random Campaign"
+msgstr ""
+
+#. [multiplayer]: id=RC_1P_00_Start
+#: Random_Campaign/scenarios_mp/1P_00.cfg:6
+msgid ""
+"Use any era and pick your faction to play a mini campaign on random maps "
+"against random factions from the chosen era. Default map settings are for "
+"Default type eras. For Age of Heroes type eras, recommended settings are 300 "
+"gold each, and income 4 above normal. Settings that can be changed are: Turn "
+"limit, village gold, fog, shroud, gold, & income. The entry for player 2 "
+"lets you change the gold and income for the enemy in the first scenario, In "
+"future scenarios enemy gold and income are increased from these values.\n"
+"(Intermediate level, 4 Scenarios.)\n"
+"Version:"
+msgstr ""
+
+#. [slider]: id=random_campaign.difficulty
+#: Random_Campaign/scenarios_mp/1P_00.cfg:23
+#: Random_Campaign/scenarios_mp/MP_00.cfg:24
+msgid "Difficulty Level"
+msgstr ""
+
+#. [slider]: id=random_campaign.difficulty
+#: Random_Campaign/scenarios_mp/1P_00.cfg:24
+#: Random_Campaign/scenarios_mp/MP_00.cfg:25
+msgid "Select difficulty level. 1=Easy, 2=Normal, 3=Hard, 4=Nightmare"
+msgstr ""
+
+#. [checkbox]: id=random_campaign.aoh_type_era
+#: Random_Campaign/scenarios_mp/1P_00.cfg:29
+msgid "AoH Type Era Adjust"
+msgstr ""
+
+#. [checkbox]: id=random_campaign.aoh_type_era
+#: Random_Campaign/scenarios_mp/1P_00.cfg:30
+msgid "Adjusts gold and income for Age of Heroes type Eras."
+msgstr ""
+
+#. [multiplayer]: id=RC_1P_01_Barren
+#. [multiplayer]: id=RC_1P_02_Barren
+#. [multiplayer]: id=RC_1P_03_Barren
+#. [multiplayer]: id=RC_1P_04_Barren
+#. [multiplayer]: id=RC_MP_01_Barren
+#. [multiplayer]: id=RC_MP_02_Barren
+#. [multiplayer]: id=RC_MP_03_Barren
+#. [multiplayer]: id=RC_MP_04_Barren
+#. [scenario]: id=01_Barren
+#. [scenario]: id=02_Barren
+#. [scenario]: id=03_Barren
+#. [scenario]: id=04_Barren
+#. [scenario]: id=05_Barren
+#. [scenario]: id=06_Barren
+#. [scenario]: id=07_Barren
+#: Random_Campaign/scenarios_mp/1P_01.cfg:5
+#: Random_Campaign/scenarios_mp/1P_02.cfg:5
+#: Random_Campaign/scenarios_mp/1P_03.cfg:5
+#: Random_Campaign/scenarios_mp/1P_04.cfg:5
+#: Random_Campaign/scenarios_mp/MP_01.cfg:5
+#: Random_Campaign/scenarios_mp/MP_02.cfg:5
+#: Random_Campaign/scenarios_mp/MP_03.cfg:5
+#: Random_Campaign/scenarios_mp/MP_04.cfg:5
+#: Random_Campaign/scenarios_sp/SP_01.cfg:6
+#: Random_Campaign/scenarios_sp/SP_02.cfg:6
+#: Random_Campaign/scenarios_sp/SP_03.cfg:6
+#: Random_Campaign/scenarios_sp/SP_04.cfg:6
+#: Random_Campaign/scenarios_sp/SP_05.cfg:6
+#: Random_Campaign/scenarios_sp/SP_06.cfg:6
+#: Random_Campaign/scenarios_sp/SP_07.cfg:6
+msgid "Barren"
+msgstr ""
+
+#. [multiplayer]: id=RC_1P_01_Cave
+#. [multiplayer]: id=RC_1P_02_Cave
+#. [multiplayer]: id=RC_1P_03_Cave
+#. [multiplayer]: id=RC_1P_04_Cave
+#. [multiplayer]: id=RC_MP_01_Cave
+#. [multiplayer]: id=RC_MP_02_Cave
+#. [multiplayer]: id=RC_MP_03_Cave
+#. [multiplayer]: id=RC_MP_04_Cave
+#. [scenario]: id=01_Cave
+#. [scenario]: id=02_Cave
+#. [scenario]: id=03_Cave
+#. [scenario]: id=04_Cave
+#. [scenario]: id=05_Cave
+#. [scenario]: id=06_Cave
+#. [scenario]: id=07_Cave
+#: Random_Campaign/scenarios_mp/1P_01.cfg:12
+#: Random_Campaign/scenarios_mp/1P_02.cfg:12
+#: Random_Campaign/scenarios_mp/1P_03.cfg:12
+#: Random_Campaign/scenarios_mp/1P_04.cfg:12
+#: Random_Campaign/scenarios_mp/MP_01.cfg:12
+#: Random_Campaign/scenarios_mp/MP_02.cfg:12
+#: Random_Campaign/scenarios_mp/MP_03.cfg:12
+#: Random_Campaign/scenarios_mp/MP_04.cfg:12
+#: Random_Campaign/scenarios_sp/SP_01.cfg:13
+#: Random_Campaign/scenarios_sp/SP_02.cfg:13
+#: Random_Campaign/scenarios_sp/SP_03.cfg:13
+#: Random_Campaign/scenarios_sp/SP_04.cfg:13
+#: Random_Campaign/scenarios_sp/SP_05.cfg:13
+#: Random_Campaign/scenarios_sp/SP_06.cfg:13
+#: Random_Campaign/scenarios_sp/SP_07.cfg:13
+msgid "Cave"
+msgstr ""
+
+#. [multiplayer]: id=RC_1P_01_Citadel
+#. [multiplayer]: id=RC_1P_02_Citadel
+#. [multiplayer]: id=RC_1P_03_Citadel
+#. [multiplayer]: id=RC_1P_04_Citadel
+#. [multiplayer]: id=RC_MP_01_Citadel
+#. [multiplayer]: id=RC_MP_02_Citadel
+#. [multiplayer]: id=RC_MP_03_Citadel
+#. [multiplayer]: id=RC_MP_04_Citadel
+#. [scenario]: id=01_Citadel
+#. [scenario]: id=02_Citadel
+#. [scenario]: id=03_Citadel
+#. [scenario]: id=04_Citadel
+#. [scenario]: id=05_Citadel
+#. [scenario]: id=06_Citadel
+#. [scenario]: id=07_Citadel
+#: Random_Campaign/scenarios_mp/1P_01.cfg:19
+#: Random_Campaign/scenarios_mp/1P_02.cfg:19
+#: Random_Campaign/scenarios_mp/1P_03.cfg:19
+#: Random_Campaign/scenarios_mp/1P_04.cfg:19
+#: Random_Campaign/scenarios_mp/MP_01.cfg:19
+#: Random_Campaign/scenarios_mp/MP_02.cfg:19
+#: Random_Campaign/scenarios_mp/MP_03.cfg:19
+#: Random_Campaign/scenarios_mp/MP_04.cfg:19
+#: Random_Campaign/scenarios_sp/SP_01.cfg:20
+#: Random_Campaign/scenarios_sp/SP_02.cfg:20
+#: Random_Campaign/scenarios_sp/SP_03.cfg:20
+#: Random_Campaign/scenarios_sp/SP_04.cfg:20
+#: Random_Campaign/scenarios_sp/SP_05.cfg:20
+#: Random_Campaign/scenarios_sp/SP_06.cfg:20
+#: Random_Campaign/scenarios_sp/SP_07.cfg:20
+msgid "Citadel"
+msgstr ""
+
+#. [multiplayer]: id=RC_1P_01_Desert
+#. [multiplayer]: id=RC_1P_02_Desert
+#. [multiplayer]: id=RC_1P_03_Desert
+#. [multiplayer]: id=RC_1P_04_Desert
+#. [multiplayer]: id=RC_MP_01_Desert
+#. [multiplayer]: id=RC_MP_02_Desert
+#. [multiplayer]: id=RC_MP_03_Desert
+#. [multiplayer]: id=RC_MP_04_Desert
+#. [scenario]: id=01_Desert
+#. [scenario]: id=02_Desert
+#. [scenario]: id=03_Desert
+#. [scenario]: id=04_Desert
+#. [scenario]: id=05_Desert
+#. [scenario]: id=06_Desert
+#. [scenario]: id=07_Desert
+#: Random_Campaign/scenarios_mp/1P_01.cfg:26
+#: Random_Campaign/scenarios_mp/1P_02.cfg:26
+#: Random_Campaign/scenarios_mp/1P_03.cfg:26
+#: Random_Campaign/scenarios_mp/1P_04.cfg:26
+#: Random_Campaign/scenarios_mp/MP_01.cfg:26
+#: Random_Campaign/scenarios_mp/MP_02.cfg:26
+#: Random_Campaign/scenarios_mp/MP_03.cfg:26
+#: Random_Campaign/scenarios_mp/MP_04.cfg:26
+#: Random_Campaign/scenarios_sp/SP_01.cfg:27
+#: Random_Campaign/scenarios_sp/SP_02.cfg:27
+#: Random_Campaign/scenarios_sp/SP_03.cfg:27
+#: Random_Campaign/scenarios_sp/SP_04.cfg:27
+#: Random_Campaign/scenarios_sp/SP_05.cfg:27
+#: Random_Campaign/scenarios_sp/SP_06.cfg:27
+#: Random_Campaign/scenarios_sp/SP_07.cfg:27
+msgid "Desert"
+msgstr ""
+
+#. [multiplayer]: id=RC_1P_01_Flood
+#. [multiplayer]: id=RC_1P_02_Flood
+#. [multiplayer]: id=RC_1P_03_Flood
+#. [multiplayer]: id=RC_1P_04_Flood
+#. [multiplayer]: id=RC_MP_01_Flood
+#. [multiplayer]: id=RC_MP_02_Flood
+#. [multiplayer]: id=RC_MP_03_Flood
+#. [multiplayer]: id=RC_MP_04_Flood
+#. [scenario]: id=01_Flood
+#. [scenario]: id=02_Flood
+#. [scenario]: id=03_Flood
+#. [scenario]: id=04_Flood
+#. [scenario]: id=05_Flood
+#. [scenario]: id=06_Flood
+#. [scenario]: id=07_Flood
+#: Random_Campaign/scenarios_mp/1P_01.cfg:33
+#: Random_Campaign/scenarios_mp/1P_02.cfg:33
+#: Random_Campaign/scenarios_mp/1P_03.cfg:33
+#: Random_Campaign/scenarios_mp/1P_04.cfg:33
+#: Random_Campaign/scenarios_mp/MP_01.cfg:33
+#: Random_Campaign/scenarios_mp/MP_02.cfg:33
+#: Random_Campaign/scenarios_mp/MP_03.cfg:33
+#: Random_Campaign/scenarios_mp/MP_04.cfg:33
+#: Random_Campaign/scenarios_sp/SP_01.cfg:34
+#: Random_Campaign/scenarios_sp/SP_02.cfg:34
+#: Random_Campaign/scenarios_sp/SP_03.cfg:34
+#: Random_Campaign/scenarios_sp/SP_04.cfg:34
+#: Random_Campaign/scenarios_sp/SP_05.cfg:34
+#: Random_Campaign/scenarios_sp/SP_06.cfg:34
+#: Random_Campaign/scenarios_sp/SP_07.cfg:34
+msgid "Flood"
+msgstr ""
+
+#. [multiplayer]: id=RC_1P_01_Island
+#. [multiplayer]: id=RC_1P_02_Island
+#. [multiplayer]: id=RC_1P_03_Island
+#. [multiplayer]: id=RC_1P_04_Island
+#. [multiplayer]: id=RC_MP_01_Island
+#. [multiplayer]: id=RC_MP_02_Island
+#. [multiplayer]: id=RC_MP_03_Island
+#. [multiplayer]: id=RC_MP_04_Island
+#. [scenario]: id=01_Island
+#. [scenario]: id=02_Island
+#. [scenario]: id=03_Island
+#. [scenario]: id=04_Island
+#. [scenario]: id=05_Island
+#. [scenario]: id=06_Island
+#. [scenario]: id=07_Island
+#: Random_Campaign/scenarios_mp/1P_01.cfg:40
+#: Random_Campaign/scenarios_mp/1P_02.cfg:40
+#: Random_Campaign/scenarios_mp/1P_03.cfg:40
+#: Random_Campaign/scenarios_mp/1P_04.cfg:40
+#: Random_Campaign/scenarios_mp/MP_01.cfg:40
+#: Random_Campaign/scenarios_mp/MP_02.cfg:40
+#: Random_Campaign/scenarios_mp/MP_03.cfg:40
+#: Random_Campaign/scenarios_mp/MP_04.cfg:40
+#: Random_Campaign/scenarios_sp/SP_01.cfg:41
+#: Random_Campaign/scenarios_sp/SP_02.cfg:41
+#: Random_Campaign/scenarios_sp/SP_03.cfg:41
+#: Random_Campaign/scenarios_sp/SP_04.cfg:41
+#: Random_Campaign/scenarios_sp/SP_05.cfg:41
+#: Random_Campaign/scenarios_sp/SP_06.cfg:41
+#: Random_Campaign/scenarios_sp/SP_07.cfg:41
+msgid "Island"
+msgstr ""
+
+#. [multiplayer]: id=RC_1P_01_Jungle
+#. [multiplayer]: id=RC_1P_02_Jungle
+#. [multiplayer]: id=RC_1P_03_Jungle
+#. [multiplayer]: id=RC_1P_04_Jungle
+#. [multiplayer]: id=RC_MP_01_Jungle
+#. [multiplayer]: id=RC_MP_02_Jungle
+#. [multiplayer]: id=RC_MP_03_Jungle
+#. [multiplayer]: id=RC_MP_04_Jungle
+#. [scenario]: id=01_Jungle
+#. [scenario]: id=02_Jungle
+#. [scenario]: id=03_Jungle
+#. [scenario]: id=04_Jungle
+#. [scenario]: id=05_Jungle
+#. [scenario]: id=06_Jungle
+#. [scenario]: id=07_Jungle
+#: Random_Campaign/scenarios_mp/1P_01.cfg:47
+#: Random_Campaign/scenarios_mp/1P_02.cfg:47
+#: Random_Campaign/scenarios_mp/1P_03.cfg:47
+#: Random_Campaign/scenarios_mp/1P_04.cfg:47
+#: Random_Campaign/scenarios_mp/MP_01.cfg:47
+#: Random_Campaign/scenarios_mp/MP_02.cfg:47
+#: Random_Campaign/scenarios_mp/MP_03.cfg:47
+#: Random_Campaign/scenarios_mp/MP_04.cfg:47
+#: Random_Campaign/scenarios_sp/SP_01.cfg:48
+#: Random_Campaign/scenarios_sp/SP_02.cfg:48
+#: Random_Campaign/scenarios_sp/SP_03.cfg:48
+#: Random_Campaign/scenarios_sp/SP_04.cfg:48
+#: Random_Campaign/scenarios_sp/SP_05.cfg:48
+#: Random_Campaign/scenarios_sp/SP_06.cfg:48
+#: Random_Campaign/scenarios_sp/SP_07.cfg:48
+msgid "Jungle"
+msgstr ""
+
+#. [multiplayer]: id=RC_1P_01_Lava
+#. [multiplayer]: id=RC_1P_02_Lava
+#. [multiplayer]: id=RC_1P_03_Lava
+#. [multiplayer]: id=RC_1P_04_Lava
+#. [multiplayer]: id=RC_MP_01_Lava
+#. [multiplayer]: id=RC_MP_02_Lava
+#. [multiplayer]: id=RC_MP_03_Lava
+#. [multiplayer]: id=RC_MP_04_Lava
+#. [scenario]: id=01_Lava
+#. [scenario]: id=02_Lava
+#. [scenario]: id=03_Lava
+#. [scenario]: id=04_Lava
+#. [scenario]: id=05_Lava
+#. [scenario]: id=06_Lava
+#. [scenario]: id=07_Lava
+#: Random_Campaign/scenarios_mp/1P_01.cfg:54
+#: Random_Campaign/scenarios_mp/1P_02.cfg:54
+#: Random_Campaign/scenarios_mp/1P_03.cfg:54
+#: Random_Campaign/scenarios_mp/1P_04.cfg:54
+#: Random_Campaign/scenarios_mp/MP_01.cfg:54
+#: Random_Campaign/scenarios_mp/MP_02.cfg:54
+#: Random_Campaign/scenarios_mp/MP_03.cfg:54
+#: Random_Campaign/scenarios_mp/MP_04.cfg:54
+#: Random_Campaign/scenarios_sp/SP_01.cfg:55
+#: Random_Campaign/scenarios_sp/SP_02.cfg:55
+#: Random_Campaign/scenarios_sp/SP_03.cfg:55
+#: Random_Campaign/scenarios_sp/SP_04.cfg:55
+#: Random_Campaign/scenarios_sp/SP_05.cfg:55
+#: Random_Campaign/scenarios_sp/SP_06.cfg:55
+#: Random_Campaign/scenarios_sp/SP_07.cfg:55
+msgid "Lava"
+msgstr ""
+
+#. [multiplayer]: id=RC_1P_01_Marsh
+#. [multiplayer]: id=RC_1P_02_Marsh
+#. [multiplayer]: id=RC_1P_03_Marsh
+#. [multiplayer]: id=RC_1P_04_Marsh
+#. [multiplayer]: id=RC_MP_01_Marsh
+#. [multiplayer]: id=RC_MP_02_Marsh
+#. [multiplayer]: id=RC_MP_03_Marsh
+#. [multiplayer]: id=RC_MP_04_Marsh
+#. [scenario]: id=01_Marsh
+#. [scenario]: id=02_Marsh
+#. [scenario]: id=03_Marsh
+#. [scenario]: id=04_Marsh
+#. [scenario]: id=05_Marsh
+#. [scenario]: id=06_Marsh
+#. [scenario]: id=07_Marsh
+#: Random_Campaign/scenarios_mp/1P_01.cfg:61
+#: Random_Campaign/scenarios_mp/1P_02.cfg:61
+#: Random_Campaign/scenarios_mp/1P_03.cfg:61
+#: Random_Campaign/scenarios_mp/1P_04.cfg:61
+#: Random_Campaign/scenarios_mp/MP_01.cfg:61
+#: Random_Campaign/scenarios_mp/MP_02.cfg:61
+#: Random_Campaign/scenarios_mp/MP_03.cfg:61
+#: Random_Campaign/scenarios_mp/MP_04.cfg:61
+#: Random_Campaign/scenarios_sp/SP_01.cfg:62
+#: Random_Campaign/scenarios_sp/SP_02.cfg:62
+#: Random_Campaign/scenarios_sp/SP_03.cfg:62
+#: Random_Campaign/scenarios_sp/SP_04.cfg:62
+#: Random_Campaign/scenarios_sp/SP_05.cfg:62
+#: Random_Campaign/scenarios_sp/SP_06.cfg:62
+#: Random_Campaign/scenarios_sp/SP_07.cfg:62
+msgid "Marsh"
+msgstr ""
+
+#. [multiplayer]: id=RC_1P_01_River
+#. [multiplayer]: id=RC_1P_02_River
+#. [multiplayer]: id=RC_1P_03_River
+#. [multiplayer]: id=RC_1P_04_River
+#. [multiplayer]: id=RC_MP_01_River
+#. [multiplayer]: id=RC_MP_02_River
+#. [multiplayer]: id=RC_MP_03_River
+#. [multiplayer]: id=RC_MP_04_River
+#. [scenario]: id=01_River
+#. [scenario]: id=02_River
+#. [scenario]: id=03_River
+#. [scenario]: id=04_River
+#. [scenario]: id=05_River
+#. [scenario]: id=06_River
+#. [scenario]: id=07_River
+#: Random_Campaign/scenarios_mp/1P_01.cfg:68
+#: Random_Campaign/scenarios_mp/1P_02.cfg:68
+#: Random_Campaign/scenarios_mp/1P_03.cfg:68
+#: Random_Campaign/scenarios_mp/1P_04.cfg:68
+#: Random_Campaign/scenarios_mp/MP_01.cfg:68
+#: Random_Campaign/scenarios_mp/MP_02.cfg:68
+#: Random_Campaign/scenarios_mp/MP_03.cfg:68
+#: Random_Campaign/scenarios_mp/MP_04.cfg:68
+#: Random_Campaign/scenarios_sp/SP_01.cfg:69
+#: Random_Campaign/scenarios_sp/SP_02.cfg:69
+#: Random_Campaign/scenarios_sp/SP_03.cfg:69
+#: Random_Campaign/scenarios_sp/SP_04.cfg:69
+#: Random_Campaign/scenarios_sp/SP_05.cfg:69
+#: Random_Campaign/scenarios_sp/SP_06.cfg:69
+#: Random_Campaign/scenarios_sp/SP_07.cfg:69
+msgid "River"
+msgstr ""
+
+#. [multiplayer]: id=RC_1P_01_Vale
+#. [multiplayer]: id=RC_1P_02_Vale
+#. [multiplayer]: id=RC_1P_03_Vale
+#. [multiplayer]: id=RC_1P_04_Vale
+#. [multiplayer]: id=RC_MP_01_Vale
+#. [multiplayer]: id=RC_MP_02_Vale
+#. [multiplayer]: id=RC_MP_03_Vale
+#. [multiplayer]: id=RC_MP_04_Vale
+#. [scenario]: id=01_Vale
+#. [scenario]: id=02_Vale
+#. [scenario]: id=03_Vale
+#. [scenario]: id=04_Vale
+#. [scenario]: id=05_Vale
+#. [scenario]: id=06_Vale
+#. [scenario]: id=07_Vale
+#: Random_Campaign/scenarios_mp/1P_01.cfg:75
+#: Random_Campaign/scenarios_mp/1P_02.cfg:75
+#: Random_Campaign/scenarios_mp/1P_03.cfg:75
+#: Random_Campaign/scenarios_mp/1P_04.cfg:75
+#: Random_Campaign/scenarios_mp/MP_01.cfg:75
+#: Random_Campaign/scenarios_mp/MP_02.cfg:75
+#: Random_Campaign/scenarios_mp/MP_03.cfg:75
+#: Random_Campaign/scenarios_mp/MP_04.cfg:75
+#: Random_Campaign/scenarios_sp/SP_01.cfg:76
+#: Random_Campaign/scenarios_sp/SP_02.cfg:76
+#: Random_Campaign/scenarios_sp/SP_03.cfg:76
+#: Random_Campaign/scenarios_sp/SP_04.cfg:76
+#: Random_Campaign/scenarios_sp/SP_05.cfg:76
+#: Random_Campaign/scenarios_sp/SP_06.cfg:76
+#: Random_Campaign/scenarios_sp/SP_07.cfg:76
+msgid "Vale"
+msgstr ""
+
+#. [multiplayer]: id=RC_1P_01_Volcano
+#. [multiplayer]: id=RC_1P_02_Volcano
+#. [multiplayer]: id=RC_1P_03_Volcano
+#. [multiplayer]: id=RC_1P_04_Volcano
+#. [multiplayer]: id=RC_MP_01_Volcano
+#. [multiplayer]: id=RC_MP_02_Volcano
+#. [multiplayer]: id=RC_MP_03_Volcano
+#. [multiplayer]: id=RC_MP_04_Volcano
+#. [scenario]: id=01_Volcano
+#. [scenario]: id=02_Volcano
+#. [scenario]: id=03_Volcano
+#. [scenario]: id=04_Volcano
+#. [scenario]: id=05_Volcano
+#. [scenario]: id=06_Volcano
+#. [scenario]: id=07_Volcano
+#: Random_Campaign/scenarios_mp/1P_01.cfg:82
+#: Random_Campaign/scenarios_mp/1P_02.cfg:82
+#: Random_Campaign/scenarios_mp/1P_03.cfg:82
+#: Random_Campaign/scenarios_mp/1P_04.cfg:82
+#: Random_Campaign/scenarios_mp/MP_01.cfg:82
+#: Random_Campaign/scenarios_mp/MP_02.cfg:82
+#: Random_Campaign/scenarios_mp/MP_03.cfg:82
+#: Random_Campaign/scenarios_mp/MP_04.cfg:82
+#: Random_Campaign/scenarios_sp/SP_01.cfg:83
+#: Random_Campaign/scenarios_sp/SP_02.cfg:83
+#: Random_Campaign/scenarios_sp/SP_03.cfg:83
+#: Random_Campaign/scenarios_sp/SP_04.cfg:83
+#: Random_Campaign/scenarios_sp/SP_05.cfg:83
+#: Random_Campaign/scenarios_sp/SP_06.cfg:83
+#: Random_Campaign/scenarios_sp/SP_07.cfg:83
+msgid "Volcano"
+msgstr ""
+
+#. [multiplayer]: id=RC_1P_01_Winter
+#. [multiplayer]: id=RC_1P_02_Winter
+#. [multiplayer]: id=RC_1P_03_Winter
+#. [multiplayer]: id=RC_1P_04_Winter
+#. [multiplayer]: id=RC_MP_01_Winter
+#. [multiplayer]: id=RC_MP_02_Winter
+#. [multiplayer]: id=RC_MP_03_Winter
+#. [multiplayer]: id=RC_MP_04_Winter
+#. [scenario]: id=01_Winter
+#. [scenario]: id=02_Winter
+#. [scenario]: id=03_Winter
+#. [scenario]: id=04_Winter
+#. [scenario]: id=05_Winter
+#. [scenario]: id=06_Winter
+#. [scenario]: id=07_Winter
+#: Random_Campaign/scenarios_mp/1P_01.cfg:89
+#: Random_Campaign/scenarios_mp/1P_02.cfg:89
+#: Random_Campaign/scenarios_mp/1P_03.cfg:89
+#: Random_Campaign/scenarios_mp/1P_04.cfg:89
+#: Random_Campaign/scenarios_mp/MP_01.cfg:89
+#: Random_Campaign/scenarios_mp/MP_02.cfg:89
+#: Random_Campaign/scenarios_mp/MP_03.cfg:89
+#: Random_Campaign/scenarios_mp/MP_04.cfg:89
+#: Random_Campaign/scenarios_sp/SP_01.cfg:90
+#: Random_Campaign/scenarios_sp/SP_02.cfg:90
+#: Random_Campaign/scenarios_sp/SP_03.cfg:90
+#: Random_Campaign/scenarios_sp/SP_04.cfg:90
+#: Random_Campaign/scenarios_sp/SP_05.cfg:90
+#: Random_Campaign/scenarios_sp/SP_06.cfg:90
+#: Random_Campaign/scenarios_sp/SP_07.cfg:90
+msgid "Winter"
+msgstr ""
+
+#. [multiplayer]: id=RC_1P_0E_Epilogue
+#: Random_Campaign/scenarios_mp/1P_05.cfg:5
+msgid "RC_1P_0E_Epilogue"
+msgstr ""
+
+#. [multiplayer]: id=RC_MP_00_Start
+#: Random_Campaign/scenarios_mp/MP_00.cfg:5
+msgid "3p - Random Campaign"
+msgstr ""
+
+#. [multiplayer]: id=RC_MP_00_Start
+#: Random_Campaign/scenarios_mp/MP_00.cfg:6
+msgid ""
+"A 3 player version of Random Campaign. Pick any era and choose your favorite "
+"faction. Default map settings are for Default type eras. For Age of Heroes "
+"type eras, recommended settings are 300 gold each, and income 4 above "
+"normal. Settings that can be changed are: Turn limit, village gold, fog, "
+"shroud, gold, & income. The entry for player 4 lets you change the gold and "
+"income for the enemy in the first scenario. In future scenarios enemy gold "
+"and income are increased from these values. Then gold and income are "
+"multiplied by the number of player sides.\n"
+"(Intermediate level, 4 Scenarios.)\n"
+"Version:"
+msgstr ""
+
+#. [multiplayer]: id=RC_MP_0E_Epilogue
+#: Random_Campaign/scenarios_mp/MP_05.cfg:5
+msgid "RC_MP_0E_Epilogue"
+msgstr ""
+
+#. [scenario]: id=SP_00
+#: Random_Campaign/scenarios_sp/SP_00.cfg:5
+msgid "SP_00"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Random_Campaign/scenarios_sp/SP_00.cfg:48
+msgid ""
+"This era is not compatiable. Random Campaign requires a Default or Age of "
+"Heroes style era. (i.e. level 2 units leading level 1 units, or level 3 "
+"units leading level 2 units.)"
+msgstr ""
+
+#. [scenario]: id=0E_Epilogue
+#: Random_Campaign/scenarios_sp/SP_08.cfg:5
+msgid "0E_Epilogue"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:18
+msgid "Ah, glorious battle approaches!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:19
+msgid "To battle! This enemy shall feel our might!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:20
+msgid ""
+"It looks like enemy troops are near. No matter, they shall fall before this "
+"army!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:21
+msgid "Today is a good day for the other guy to die! Everyone, to the ready!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:22
+msgid "I see a campfire in the distance. Everybody, weapons to the ready!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:23
+msgid "I hear an army in the distance. Troops! To the ready!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:24
+msgid "Look! A set of fools seek to oppose us. We shall crush them!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:25
+msgid "Another battle approaches!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:26
+msgid "A force seeks to oppose us?  Let us get ready!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:27
+msgid ""
+"What have we here? An enemy faction approaches. All troops, prepare for "
+"battle!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:28
+msgid ""
+"Look at this! Another challenger! Well, being the best means having to prove "
+"it."
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:29
+msgid ""
+"Wow, another enemy army! Where do they all come from? Oh well, prepare for "
+"battle!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:34
+msgid "Argh!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:35
+msgid "Noooooo!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:36
+msgid "Someone, anyone, avenge me!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:37
+msgid "Alas, I shall never see my homelands again."
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:38
+msgid "Now I undertake the final journey. . ."
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:39
+msgid "The end has come, and all too soon."
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:40
+msgid "My time has come. May my deeds not be forgotten."
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:41
+msgid "Curse you all!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:42
+msgid "Aaaaahhhhhh!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:47
+msgid "Sweet victory!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:48
+msgid "We win!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:49
+msgid "Ah, the sweet taste of victory!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:50
+msgid "Truly, a great victory!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:51
+msgid "We are victorious!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:52
+msgid "Hooray! We won!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:53
+msgid "Victory is ours!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:54
+msgid "We are triumphant!"
+msgstr ""
+
+#. [set_variables]
+#: Random_Campaign/utils_common/dialog.cfg:55
+msgid "Another army has fallen before us. Hooray!"
+msgstr ""
+
+#: Random_Campaign/utils_common/story.cfg:8
+msgid ""
+"After traveling for a few days, the army came upon a desolate wasteland, "
+"full of rugged hills, muddy quagmires, barren dirt, and a few scattered dead "
+"trees."
+msgstr ""
+
+#: Random_Campaign/utils_common/story.cfg:12
+msgid ""
+"Within a day, the group had found a cave and went exploring inside. It was "
+"immense, and at its deepest depths no sunlight was to be found. Deep chasms, "
+"pits of mud, thick mushroom groves, and jagged rocks covered much of the "
+"cavern floor. The endless night here was a boon for chaotic forces."
+msgstr ""
+
+#: Random_Campaign/utils_common/story.cfg:16
+msgid ""
+"When almost a week had past, the travelers found themselves in a giant "
+"citadel. The light seemed to come from the very air itself. The chasms gave "
+"off an ethereal glow, and the green trees, high stone walls, and paved roads "
+"marked this as a holy place for lawful forces."
+msgstr ""
+
+#: Random_Campaign/utils_common/story.cfg:20
+msgid ""
+"Two days of traveling brought them to a desert. Sand was plentiful, and "
+"there were craters, cacti, and oases scattered about."
+msgstr ""
+
+#: Random_Campaign/utils_common/story.cfg:24
+msgid ""
+"After four days had past, a heavy rain fell for a whole day. When it ended, "
+"the army found itself in a flooded valley."
+msgstr ""
+
+#: Random_Campaign/utils_common/story.cfg:28
+msgid ""
+"In three days the band came upon a coast. An island was visible, and they "
+"set sail for it, arrived within a few hours and made camp."
+msgstr ""
+
+#: Random_Campaign/utils_common/story.cfg:32
+msgid ""
+"Journeying south, the adventurers entered a jungle. The forest was thick, "
+"with the occasional swamp, grassland, and river interrupting the steady flow "
+"of the trees over the land."
+msgstr ""
+
+#: Random_Campaign/utils_common/story.cfg:36
+msgid ""
+"Upon following an opening in the ground, the group found themselves in a dry "
+"underground cavern. Sand, rocks and rivers of lava were everywhere, and the "
+"light from the lava and the surface cast a constant twilight glow."
+msgstr ""
+
+#: Random_Campaign/utils_common/story.cfg:40
+msgid ""
+"Wandering about, the band came upon a dense swampland. Mosquitoes were "
+"almost as plentiful as marsh and water, the air was humid, and travel was "
+"slow for land dwellers."
+msgstr ""
+
+#: Random_Campaign/utils_common/story.cfg:44
+msgid ""
+"Soon the group came to a vibrant river valley. All around them that was not "
+"hills and mountains was alive with green, and through the middle of it ran a "
+"wide river."
+msgstr ""
+
+#: Random_Campaign/utils_common/story.cfg:48
+msgid ""
+"A long march lead the company to a pleasant and temperate vale with a "
+"variety of terrain; forests, mountains,  grass, sand, spots of snow, and the "
+"occasional small cave."
+msgstr ""
+
+#: Random_Campaign/utils_common/story.cfg:52
+msgid ""
+"Travelling east for several days, the party spotted a huge volcano, the air "
+"above it shimmering from the heat of the lava. Surrounding this mammoth "
+"mountain was dead forests and dry earth."
+msgstr ""
+
+#: Random_Campaign/utils_common/story.cfg:56
+msgid ""
+"Venturing north, the army found a valley in the middle of cold weather. The "
+"going was slow, as snow and ice covered most of the land."
+msgstr ""
+
+#. [part]
+#: Random_Campaign/utils_common/story.cfg:102
+msgid ""
+"The band of adventurers set off to explore the world and test their mettle "
+"in combat, seeking glory."
+msgstr ""
+
+#. [part]
+#: Random_Campaign/utils_common/story.cfg:113
+msgid ""
+"The army that had started out as a bunch of raw recruits now contained "
+"battle-hardened veterans. They had indeed tested their mettle, found it not "
+"lacking, and had achieved glory."
+msgstr ""
+
+#. [trait]: id=powerful
+#: Random_Campaign/utils_common/traits.cfg:70
+msgid "powerful"
+msgstr ""
+
+#. [trait]: id=powerful
+#: Random_Campaign/utils_common/traits.cfg:71
+msgid "female^powerful"
+msgstr ""
+
+#. [objective]: condition=win
+#: Random_Campaign/utils_mp/_sides_mp.cfg:438
+#: Random_Campaign/utils_mp/_sides_mp.cfg:467
+#: Random_Campaign/utils_sp/_sides.cfg:148
+#: Random_Campaign/utils_sp/_sides.cfg:177
+msgid "Defeat enemy leader"
+msgstr ""
+
+#. [objective]: condition=lose
+#: Random_Campaign/utils_mp/_sides_mp.cfg:442
+#: Random_Campaign/utils_sp/_sides.cfg:152
+msgid "Death of your leader"
+msgstr ""
+
+#. [objective]: condition=lose
+#: Random_Campaign/utils_mp/_sides_mp.cfg:446
+#: Random_Campaign/utils_mp/_sides_mp.cfg:493
+#: Random_Campaign/utils_sp/_sides.cfg:156
+#: Random_Campaign/utils_sp/_sides.cfg:203
+msgid "Turns run out"
+msgstr ""
+
+#: Random_Campaign/utils_mp/_sides_mp.cfg:472
+#: Random_Campaign/utils_mp/_sides_mp.cfg:478
+#: Random_Campaign/utils_mp/_sides_mp.cfg:488
+#: Random_Campaign/utils_sp/_sides.cfg:182
+#: Random_Campaign/utils_sp/_sides.cfg:188
+#: Random_Campaign/utils_sp/_sides.cfg:198
+msgid "Death of "
+msgstr ""
+
+#: Random_Campaign/utils_mp/_sides_mp.cfg:483
+#: Random_Campaign/utils_sp/_sides.cfg:193
+msgid "Death of your leader(s)"
+msgstr ""
+
+#: Random_Campaign/utils_sp/_sides.cfg:259
+msgid "ai"
+msgstr ""
